@@ -2,8 +2,57 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --main-color: #2196F3;
+    --secondary-color: #212121;
+    --third-color: #757575;
 }
 
 body {
     font-family: var(--main-font);
 }
+
+/* ===== HEADER ===== */
+
+.main-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-logo span {
+    color: var(--main-color);
+}
+
+.navigation_list {
+    list-style: none;
+}
+
+.navigation_list-item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.navigation_list-item-link:hover,
+.navigation_list-item-link:focus,
+.navigation_list-item-link:visited {
+    color: var(--main-color);
+}
+
+.navigation_list-item-link-contact {
+    color: var(--third-color);
+}
+
+/* ===== END HEADER ===== */
+
+
+
+/* =====  EMPTY ===== */
+
+/* ===== END EMPTY ===== */
