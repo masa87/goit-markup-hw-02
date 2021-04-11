@@ -106,8 +106,40 @@ body {
     color: var(--third-color);
 }
 
+.about_list-img {
+    list-style: none;
+}
+
 /* ===== END ABOUT ===== */
 
-/* =====  EMPTY ===== */
+/* =====  TEAM ===== */
 
-/* ===== END EMPTY ===== */
+.team_list {
+    list-style: none;
+}
+
+.team_list-item-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.team_list-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+/* ===== END TEAM ===== */
+
+/* =====  FOOTER ===== */
+
+
+
+/* ===== END FOOTER ===== */
