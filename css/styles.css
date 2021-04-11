@@ -207,6 +207,9 @@ body {
     background-color: var(--main-color);
 }
 
+.main_section-card-list {
+    list-style: none;
+}
 
 /* ===== END MAIN SECTION ===== */
 
