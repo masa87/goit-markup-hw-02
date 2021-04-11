@@ -84,6 +84,30 @@ body {
 
 /* ===== END HERO ===== */
 
+/* =====  ABOUT ===== */
+.about_list {
+    list-style: none;
+}
+
+.about_list-item-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.about_list-item-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+/* ===== END ABOUT ===== */
+
 /* =====  EMPTY ===== */
 
 /* ===== END EMPTY ===== */
