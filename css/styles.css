@@ -51,7 +51,38 @@ body {
 
 /* ===== END HEADER ===== */
 
+/* =====  HERO ===== */
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #2F303A;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* ===== END HERO ===== */
 
 /* =====  EMPTY ===== */
 
