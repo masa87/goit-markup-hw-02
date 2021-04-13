@@ -187,11 +187,10 @@ body {
 
 .main_section-nav-list-item {
     list-style: none;
-    background: #F5F4FA;
     border-radius: 4px;
 }
 
-.main_section-nav-list-item-link {
+.main_section-nav-list-item-btn {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -199,10 +198,11 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+    background: #F5F4FA;
 }
 
-.main_section-nav-list-item-link:hover,
-.main_section-nav-list-item-link:active {
+.main_section-nav-list-item-btn:hover,
+.main_section-nav-list-item-btn:active {
     color: #fff;
     background-color: var(--main-color);
 }
